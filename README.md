@@ -62,7 +62,7 @@ WIMManager-Cicada3301 — это утилита для удобной работ
 4. Запускаем приложение:
 
    ```bash
-   python mount_wim.py
+   python WIMManager-Cicada3301.py
    ```
 
 > ⚠️ **Важно:** для монтирования WIM через DISM программа должна быть запущена **от имени администратора**,
@@ -105,13 +105,13 @@ WIMManager-Cicada3301 — это утилита для удобной работ
    pip install pyinstaller
    ```
 
-2. Выполни сборку (из папки с `mount_wim.py` и `logo.ico`):
+2. Выполни сборку (из папки с `WIMManager-Cicada3301.py` и `logo.ico`):
 
    ```bash
    pyinstaller --noconsole --onefile ^
      --icon=logo.ico ^
      --add-data "logo.ico;." ^
-     mount_wim.py
+     WIMManager-Cicada3301.py
    ```
 
 После сборки готовый `.exe` будет лежать в папке `dist/`.
