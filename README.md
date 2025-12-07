@@ -2,7 +2,7 @@
 
 > Python-powered GUI tool for managing Windows WIM images (WinRE, WinPE, install.wim) with style.
 
-WIMManager-Cicada3301 — это утилита на **Python + Tkinter** для удобной работы с образами **WIM** в Windows.
+WIMManager-Cicada3301 — это утилита для удобной работы с образами **WIM** в Windows.
 Приложение оборачивает команды **DISM** и **wimlib-imagex** в удобный графический интерфейс с логом, темами
 и небольшими Python-приятностями.
 
