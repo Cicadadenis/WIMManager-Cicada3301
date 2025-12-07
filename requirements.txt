@@ -1,0 +1,5 @@
+# Runtime: только стандартная библиотека Python
+# External runtime deps: none
+
+# Dev tools (для сборки EXE)
+pyinstaller>=6.0
