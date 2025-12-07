@@ -51,7 +51,7 @@ class WimManagerApp:
         self.root.geometry("900x520")
         self.root.minsize(880, 520)
         try:
-            icon_file = resource_path("C:\\Users\\denis\\Desktop\\777\\logo.ico")
+            icon_file = resource_path("logo.ico")
             # Для дебага можно посмотреть путь:
             # print("ICON PATH:", icon_file, "exists:", os.path.exists(icon_file))
             self.root.iconbitmap(icon_file)
